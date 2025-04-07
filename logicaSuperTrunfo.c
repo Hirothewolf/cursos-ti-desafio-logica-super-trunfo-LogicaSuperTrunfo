@@ -125,7 +125,7 @@ int main() {
     }
     superPoder2 = (float)populacao2 + area2 + (float)pontos_turisticos2 + pibPerCapita2 + inversoDensidade2;
 
-    // --- Exibição Opcional dos Dados Completos ---
+    // --- Exibição dos Dados Completos ---
     // É útil para verificar se os cadastros e cálculos estão corretos
     printf("\n--- DADOS CARTA 1: %s ---\n", cidade1);
     printf("Populacao: %lu\n", populacao1);
@@ -252,5 +252,5 @@ int main() {
 
     printf("--------------------------\n");
 
-    return 0; // Indica que o programa terminou com sucesso
+    return 0; // O programa terminou com sucesso
 }
